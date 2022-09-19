@@ -1,0 +1,373 @@
+/* RESET CODE*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Global SECTION */
+
+    /* ---------------FIRST SECTION--------------------- */
+
+    /* ---------------LOGO & NAVBAR--------------------- */
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: lightgreen;
+}
+.navbar-default .navbar-nav>li>a:focus{
+    color: white;
+}
+.navbar-toggle {
+    margin-top: 40px;
+}
+.navbar-nav{
+    margin-top: 30px;
+}
+.menu-bg{
+    background: lightgreen;
+}
+
+    /* ---------------SLIDER / 1ST--------------------- */
+#slider{
+    background-image: url(../images/onu-background.jpg);
+}
+.slider-overlay{
+    width: 100%;
+    background: rgba(0, 0, 0, .3);
+}
+.item{
+    padding: 180px 0;
+    color: white;
+    text-transform: uppercase;
+}
+.item h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.item h2{
+    border: 2px solid;
+    max-width: 670px;
+    margin: 0 auto;
+    font-size: 100px;
+    padding: 10px;
+}
+.item span{
+    color: lightgreen;
+}
+.item h4{
+    font-size: 35px;
+}
+.carousel-indicators li {
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+}
+.carousel-indicators .active{
+    background-color: lightgreen;
+    border: 5px solid lightgreen;
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+}
+
+    /* ---------------ABOUT US--------------------- */
+#about{
+    color: black;
+    padding: 110px 0;
+}
+.about-top{
+    padding-bottom: 50px;
+}
+.about-top h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+}
+.about-top p{
+    font-size: 16px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.content-room{
+    margin-bottom: 30px;
+}
+.content-room i{
+    font-size: 40px;
+}
+.content-room h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.content-room p{
+    font-size: 14px;
+}
+.content-room:hover i,
+.content-room:hover h2{
+    color: lightgreen;
+}
+
+    /* ---------------Services/3rd section--------------------- */
+#service{
+    background-color:lightgrey;
+    padding: 90px 0;
+}
+.service-room img{
+    width: 100%;
+}
+.service-room {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.service-room-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    transition: .5s;
+}
+.service-room:hover .service-room-overlay{
+    top: 0;
+}
+.about-room-overlay{
+    position: absolute;
+    left: 30%;
+    bottom: -100%;
+    transition: .5s;
+}
+.about-room-overlay i{
+    width: 55px;
+    height: 55px;
+    border: 1px solid white;
+    border-radius: 100%;
+    font-size: 15px;
+    line-height: 40px;
+    color: white;
+    transition: .5s;
+    margin: 0 5px;
+    text-align: center;
+    font-size: larger;
+}
+.service-room:hover .about-room-overlay{
+    bottom: 40%;
+}
+.about-room-overlay i:hover{
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+}
+/* ---------------Portfolio / 4th section--------------------- */
+
+#portfolio{
+    margin-top: 100px;
+    /* margin-bottom: 20px; */
+}
+#portfolio h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#portfolio p{
+    padding: 10px 0;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+/* ---------------Pricing / 5th section--------------------- */
+#priceing-table{
+    padding: 100px 0;
+}
+#priceing-table h2{
+    /* text-transform: uppercase; */
+    /* font-weight: bold; */
+}
+#priceing-table p{
+    /* padding: 20px 0; */
+    /* max-width: 700px; */
+    /* margin: 0 auto; */
+}
+.pricing-room{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    /* margin: 0 20px; */
+    border-radius: 5px;
+    transition: .5s;
+    margin-bottom: 30px;
+}
+.priceing-circle{
+    height: 140px;
+    width: 140px;
+    border: 5px solid white;
+    border-radius: 100%;
+    margin: 0 auto;
+    transition: .5s;
+}
+.priceing-circle p{
+    margin-top: 20px;
+}
+.priceing-circle sup{
+    font-size: 20px;
+    top: -10px;
+    /* right: 8px; */
+    left: -5px;
+}
+.priceing-circle em{
+    font-size: 25px;
+}
+.priceing-circle span{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.pricing-room ul{
+    padding: 0;
+}
+.pricing-room ul li{
+    list-style: none;
+    max-width: 145px;
+    margin: 0 auto;
+    padding: 15px 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    font-size: 16px;
+}
+.btn{
+    background: white;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 5px 20px;
+    transition: .5s;
+}
+.pricing-room:hover{
+    background: lightgreen;
+    color: white;
+}
+.pricing-room:hover .priceing-circle{
+    background: white;
+    color: lightgreen;
+}
+.pricing-room:hover .btn{
+    background: white;
+    color: lightgreen;
+}
+
+/* ---------------Counting / 6th section--------------------- */
+#counterup{
+    background: url(../images/onu-count.jpg) no-repeat center center;
+}
+.counter-overlay{
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+}
+.counter-content{
+    padding-top: 100px;
+    padding-bottom: 230px;
+}
+.count{
+    border: 1px solid white;
+    color: white;
+    padding: 15px 0;
+    background-color: rgba(0, 0, 0, .7);
+    margin-bottom: 30px;
+}
+.count span{
+    font-size: 30px;
+}
+.count h3{
+    font-size: 20px;
+}
+/* ---------------Contact-Us / 7th section--------------------- */
+
+#contact-us{
+    padding: 100px 0;
+}
+.contact-us-room {
+    margin-bottom: 30px;
+}
+.contact-us-room i{
+    color: lightgrey;
+    font-size: 45px;
+    line-height: 60px;
+}
+.contact-us-room h3{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contact-us-room h4{
+    font-size: 14px;
+}
+.contact-us-room i, h3{
+    transition: .5s;
+}
+.contact-us-room:hover i,
+.contact-us-room:hover h3{
+    color: lightgreen;
+}
+    /* ---------------Form / 8th section--------------------- */
+#contact-form{
+    padding: 80px 0;
+    background: silver;
+}
+.form-control{
+    border-radius: 0;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid white;
+}
+.textarea textarea{
+    height: 80px;
+}
+.textarea button{
+    margin-top: 3px;
+    background-color: lightgreen;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 30px;
+}
+.btn-default{
+    border-color: lightgreen;
+}
+    /* ---------------google maps--------------------- */
+#map {
+    width: 100%;
+    height: 400px;
+}
+    /* ---------------scrol-to-top--------------------- */
+.scrollup{
+    width: 50px;
+    height: 45px;
+    font-size: 30px;
+    color: white;
+    background: lightgreen;
+    text-align: center;
+    position: fixed;
+    bottom: 70px;
+    right: 50px;
+}
+    /* ---------------Footer / 9th section--------------------- */
+#footer{
+    background: black;
+    padding: 20px 0;
+    color: white;
+}
+.footer-icon i{
+    font-size: 18px;
+    margin: 0 5px;
+}
+.footer-icon i:hover{
+    color: lightgreen;
+}
